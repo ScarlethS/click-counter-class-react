@@ -23,19 +23,30 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 20px;
+  margin: 20px 0;
 }
 
 .freecodecamp-logo{
- height: 50px;
+ height: 2em;
 }
 
 .main-container{
   height: 550px;
-  min-width: 600px;
+  min-width: 20em;  
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+@media (min-width: 1200px) {
+
+  .freecodecamp-logo{
+    height: 3em;
+  }
+
+  .main-container{
+    min-width: 528px;
+  }
 }

@@ -1,5 +1,5 @@
 .count{
-    min-width: 300px;
+    min-width: 250px;
     height: 300px;
     font-size: 160px;
     padding: 25px;
@@ -9,4 +9,10 @@
     justify-content: center;
     border: 8px solid #fff;
     margin-bottom: 15px;
+}
+
+@media (min-width: 1200px) {
+    .count{
+        min-width: 300px;
+    }
 }
