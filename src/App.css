@@ -23,7 +23,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 20px 0;
+  margin: 20px 0px;
 }
 
 .freecodecamp-logo{
@@ -32,7 +32,7 @@ body{
 
 .main-container{
   height: 550px;
-  min-width: 20em;  
+  min-width: 479px;  
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
