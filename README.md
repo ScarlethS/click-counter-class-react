@@ -6,7 +6,6 @@ This project was created by the Learn React from scratch course on the FreeCodeC
 
 ## Running the Application
 
- To run the appliation, you should execute the command `npm start` in the terminal. 
 
 The application you can find in the next link: 
  [https://scarleths.github.io/click-counter-class-react/](https://scarleths.github.io/click-counter-class-react/) 
